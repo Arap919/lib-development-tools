@@ -1,0 +1,30 @@
+{
+  "name": "local-development-tools",
+  "version": "0.0.0",
+  "description": "CLI tools for local development with library",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arap919/lib-development-tools"
+  },
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "author": "Oleg Firskov",
+  "license": "ISC",
+  "bin": {
+    "build-and-link": "./dist/build-and-link.js",
+    "push-changes": "./dist/push-changes.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3"
+  }
+}
